@@ -30,9 +30,7 @@ This tutorial is particularly suited for new users but adds up to last-years tut
 - Invert seismic traveltime and field ERT data
 - Show how to build inversions with own forward operators (e.g., from other packages)
 
-This years tutorial will demonstrate some basic pyGIMLi classes:
-- DataContainer, Mesh, different kinds of supported Matrices
-but also some topics that might be of interest for the experienced users:
+This years tutorial will demonstrate some basic pyGIMLi classes (`DataContainer`, `Mesh`, different kinds of supported matrices) but also some topics that might be of interest for the experienced users:
 - geostatistical regularization vs. classical smoothness types
 - region-specific behaviour
 - different kinds of joint inversion
