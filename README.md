@@ -21,13 +21,25 @@ Instructors:
 | pyGIMLi documentation | https://www.pygimli.org/documentation.html                                                                                        |
 ## About
 
-pyGIMLi is an open-source library for modeling and inversion in geophysics. This tutorial is particularly suited for new users. We will start from scratch and:
+pyGIMLi is an open-source library for modeling and inversion in geophysics. 
+This tutorial is particularly suited for new users but adds up to last-years tutorial on Transform 2021 with the following subjects:
 
 - Create a subsurface geometry and explore the pyGIMLi meshtools
 - Simulate the stationary 2D heat equation
 - Simulate synthetic crosshole traveltime measurements
 - Invert seismic traveltime and field ERT data
 - Show how to build inversions with own forward operators (e.g., from other packages)
+
+This years tutorial will demonstrate some basic pyGIMLi classes:
+- DataContainer, Mesh, different kinds of supported Matrices
+but also some topics that might be of interest for the experienced users:
+- geostatistical regularization vs. classical smoothness types
+- region-specific behaviour
+- different kinds of joint inversion
+- incorporation of prior knowledge 
+- overview of other packages in the pyGIMLi ecosystem (BERT, COMET, custEM)
+- induced polarization modelling and spectrally constrained inversion
+
 
 ## Table of contents
 - [Tutorial on geophysical modeling & inversion with pyGIMLi](#tutorial-on-geophysical-modeling--inversion-with-pygimli)
@@ -78,7 +90,7 @@ There are a few things you'll need to follow the tutorial:
 
 ### Step 2: Download material for the tutorial
 
-- Windows: [Download the course material](https://github.com/gimli-org/transform2021/archive/refs/heads/main.zip) and unzip it a folder of your choice.
+- Windows: [Download the course material](https://github.com/gimli-org/transform2022/archive/refs/heads/main.zip) and unzip it a folder of your choice.
 - Mac/Linux: You can do the same as above, or alternatively open a terminal, navigate to a folder of your choice, and execute `git clone https://github.com/gimli-org/transform2021`.
 
 
@@ -93,7 +105,7 @@ conda env create
 2. Activate the environment in the terminal by typing:
 
 ```
-conda activate pg-transform
+conda activate pg-transform2022
 ```
 
 3. To test if everything works correctly you can do the following:
@@ -115,14 +127,4 @@ If you get any errors, please let us know on Slack at [#t21-mon-pygimli](https:/
 
 ## Schedule
 
-| Notebook # | Topic                                                    | Start Time (UTC) | YouTube live (hh:mm:ss)|
-| ---------: | :------------------------------------------------------- | :--------------- | :----------------------|
-|            | Intro (main features, conda installer, API doc)          | 8:01             | 00:01:09               |
-|          1 | 2D meshtools demonstration                               | 8:10             | 00:09:30               |
-|          2 | Equation level: 2D heat equation                         | 8:32             | 00:31:10               |
-|          3 | Crosshole traveltime forward modeling                    | 8:49             | 00:48:19               |
-|         \* | 10-MINUTE BREAK                                          | 9:04             | 01:03:00               |
-|          4 | Method Manager: Traveltime inversion                     | 9:11             | 01:10:00               |
-|          5 | Inversion settings: Geoelectric field data set with topo | 9:21             | 01:30:00               |
-|          6 | Inversion with own forward operator                      | 9:38             | 01:47:00               |
-|            | Homepage with examples, papers, contribution guide       | 9:55             | 01:55:00               |
+
