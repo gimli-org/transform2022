@@ -17,27 +17,18 @@ Instructors:
 | --------------------: | :-------------------------------------------------------------------------------------------------------------------------------- |
 |                  When | Tuesday, April 26 • 17:00 - 19:00 UTC (starts at 08.00 a.m. CET)                                                                     |
 |           Slack (Q&A) | [Software Underground](https://softwareunderground.org/) channel [#t22-tue-pygimli](https://app.slack.com/client/T094HBB9T/C039C3J7Y1M/thread/C01US4T522X-1650375402.703439) |
-|           Live stream | https://youtu.be/w3pu0H3dXe8                                                                                                    |
+|           Live stream | https://www.youtube.com/playlist?list=PLgLft9vxdduDFkG9gtuNicNmb2YUzWqSQ               |
 | pyGIMLi documentation | https://www.pygimli.org/documentation.html                                                                                        |
 ## About
 
 pyGIMLi is an open-source library for modeling and inversion in geophysics. 
-This tutorial is particularly suited for new users but adds up to last-years tutorial on Transform 2021 with the following subjects:
-
-- Create a subsurface geometry and explore the pyGIMLi meshtools
-- Simulate the stationary 2D heat equation
-- Simulate synthetic crosshole traveltime measurements
-- Invert seismic traveltime and field ERT data
-- Show how to build inversions with own forward operators (e.g., from other packages)
-
-This years tutorial will demonstrate some basic pyGIMLi classes:
-- DataContainer, Mesh, different kinds of supported Matrices
-but also some topics that might be of interest for the experienced users:
+This tutorial is particularly suited for new users but adds up to last-years tutorial on Transform 2021 that was covering model building and synthetic modellings on the equation and application levels, and some standard inversion of synthetic and field data, plus how to use an own forward operator. This tutorial will add on to this and go into some more details about the underlying classes but will mainly focus on user-specific inversion:
+- DataContainer, Mesh, different kinds of matrices, transformations
 - geostatistical regularization vs. classical smoothness types
-- region-specific behaviour
-- different kinds of joint inversion
+- individual treatment of subsurface regions
 - incorporation of prior knowledge 
-- overview of other packages in the pyGIMLi ecosystem (BERT, COMET, custEM)
+- different kinds of joint and coupled inversion
+- overview of other packages in the pyGIMLi ecosystem (BERT, COMET, SAEM, custEM)
 - induced polarization modelling and spectrally constrained inversion
 
 
@@ -91,7 +82,7 @@ There are a few things you'll need to follow the tutorial:
 ### Step 2: Download material for the tutorial
 
 - Windows: [Download the course material](https://github.com/gimli-org/transform2022/archive/refs/heads/main.zip) and unzip it a folder of your choice.
-- Mac/Linux: You can do the same as above, or alternatively open a terminal, navigate to a folder of your choice, and execute `git clone https://github.com/gimli-org/transform2021`.
+- Mac/Linux: You can do the same as above, or alternatively open a terminal, navigate to a folder of your choice, and execute `git clone https://github.com/gimli-org/transform2022`.
 
 
 ### Step 3: Install the tutorial environment
