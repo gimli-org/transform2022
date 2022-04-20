@@ -23,17 +23,17 @@ Instructors:
 
 pyGIMLi is an open-source library for modeling and inversion in geophysics. 
 This tutorial is particularly suited for new users but adds up to last-years tutorial on Transform 2021 that was covering model building and synthetic modellings on the equation and application levels, and some standard inversion of synthetic and field data, plus how to use an own forward operator. This tutorial will add on to this and go into some more details about the underlying classes but will mainly focus on user-specific inversion:
-- DataContainer, Mesh, different kinds of matrices, transformations
+- DataContainer, Mesh, matrix types, transformations, frameworks
 - geostatistical regularization vs. classical smoothness types
 - individual treatment of subsurface regions
 - incorporation of prior knowledge 
 - different kinds of joint and coupled inversion
-- overview of other packages in the pyGIMLi ecosystem (BERT, COMET, SAEM, custEM)
 - induced polarization modelling and spectrally constrained inversion
+- outlook and overview of other packages in the pyGIMLi ecosystem (BERT, COMET, SAEM, custEM)
 
 
 ## Table of contents
-- [Tutorial on geophysical modeling & inversion with pyGIMLi](#tutorial-on-geophysical-modeling--inversion-with-pygimli)
+- [Geophysical modeling & inversion with pyGIMLi II](#geophysical-modeling--inversion-with-pygimli)
   - [About](#about)
   - [Table of contents](#table-of-contents)
   - [BEFORE THE TUTORIAL](#before-the-tutorial)
@@ -46,10 +46,10 @@ This tutorial is particularly suited for new users but adds up to last-years tut
 
 ## BEFORE THE TUTORIAL
 
-Make sure you've done these things **before the tutorial on Monday**:
+Make sure you've done these things **before the tutorial on Wednesday**:
 
 1. Sign up for the [Software Underground Slack](https://softwareunderground.org/slack)
-2. Join the channel [#t21-mon-pygimli](https://app.slack.com/client/T094HBB9T/C039C3J7Y1M/thread/C01US4T522X-1650375402.703439) channel. This is where **all communication will
+2. Join the channel [#t22-mon-pygimli](https://app.slack.com/client/T094HBB9T/C039C3J7Y1M/thread/C01US4T522X-1650375402.703439) channel. This is where **all communication will
    happen** and where we will answer any question about installation and the tutorial
 3. **Install the pyGIMLi conda environment** as described below.
 
@@ -106,7 +106,7 @@ python -c "import pygimli; pygimli.test(show=False, onlydoctests=True)"
 ```
 
 If none of these commands gives an error, then your installation is working fine.
-If you get any errors, please let us know on Slack at [#t21-mon-pygimli](https://swung.slack.com/archives/C01T5V5S9EV).
+If you get any errors, please let us know on Slack at [#t22-mon-pygimli](https://app.slack.com/client/T094HBB9T/C039C3J7Y1M/thread/C01US4T522X-1650375402.703439).
 
 ### Step 4: Start JupyterLab
 
