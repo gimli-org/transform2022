@@ -17,7 +17,7 @@ Instructors:
 | --------------------: | :-------------------------------------------------------------------------------------------------------------------------------- |
 |                  When | Tuesday, April 26 • 17:00 - 19:00 UTC (starts at 08.00 a.m. CET)                                                                     |
 |           Slack (Q&A) | [Software Underground](https://softwareunderground.org/) channel [#t22-tue-pygimli](https://app.slack.com/client/T094HBB9T/C039C3J7Y1M/thread/C01US4T522X-1650375402.703439) |
-|           Live stream | https://www.youtube.com/playlist?list=PLgLft9vxdduDFkG9gtuNicNmb2YUzWqSQ               |
+|           Live stream | https://youtu.be/2Hu4gDnRzlU               |
 | pyGIMLi documentation | https://www.pygimli.org/documentation.html                                                                                        |
 ## About
 
@@ -46,10 +46,10 @@ This tutorial is particularly suited for new users but adds up to last-years tut
 
 ## BEFORE THE TUTORIAL
 
-Make sure you've done these things **before the tutorial on Wednesday**:
+Make sure you've done these things **before the tutorial on Tuesday**:
 
 1. Sign up for the [Software Underground Slack](https://softwareunderground.org/slack)
-2. Join the channel [#t22-mon-pygimli](https://app.slack.com/client/T094HBB9T/C039C3J7Y1M/thread/C01US4T522X-1650375402.703439) channel. This is where **all communication will
+2. Join the channel [#t22-mon-pygimli](https://app.slack.com/client/T094HBB9T/C039C3J7Y1M) channel. This is where **all communication will
    happen** and where we will answer any question about installation and the tutorial
 3. **Install the pyGIMLi conda environment** as described below.
 
@@ -106,7 +106,7 @@ python -c "import pygimli; pygimli.test(show=False, onlydoctests=True)"
 ```
 
 If none of these commands gives an error, then your installation is working fine.
-If you get any errors, please let us know on Slack at [#t22-mon-pygimli](https://app.slack.com/client/T094HBB9T/C039C3J7Y1M/thread/C01US4T522X-1650375402.703439).
+If you get any errors, please let us know on Slack at [#t22-mon-pygimli](https://app.slack.com/client/T094HBB9T/C039C3J7Y1M).
 
 ### Step 4: Start JupyterLab
 
