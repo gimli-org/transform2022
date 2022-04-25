@@ -7,4 +7,3 @@ dependencies:
     - python>=3.8
     - pygimli=1.2.5
     - jupyterlab
-    - scipy
