@@ -7,11 +7,13 @@
 The [pyGIMLi tutorial at Transform 22](https://transform.softwareunderground.org/overview/)
 
 Instructors:
-[Florian Wagner](https://github.com/florian-wagner) <sup>1</sup>, [Carsten Rücker](https://github.com/carsten-forty2) <sup>2</sup>, [Thomas Günther](https://github.com/halbmy)<sup>3</sup>, [Andrea Balza](https://github.com/andieie)<sup>1</sup>
+[Thomas Günther](https://github.com/halbmy)<sup>3</sup>,
+[Carsten Rücker](https://github.com/carsten-forty2) <sup>2</sup>, 
+[Florian Wagner](https://github.com/florian-wagner) <sup>1</sup>
 
-> <sup>1</sup> RWTH Aachen University, Applied Geophysics and Geothermal Energy, Aachen, Germany
-> <sup>2</sup> Berlin University of Technology, Department of Applied Geophysics, Berlin, Germany
-> <sup>3</sup> Leibniz Institute for Applied Geophysics, Hannover, Germany
+> <sup>1</sup> Leibniz Institute for Applied Geophysics, Hannover, Germany
+> <sup>2</sup> RWTH Aachen University, Applied Geophysics and Geothermal Energy, Aachen, Germany
+> <sup>3</sup> Berlin University of Technology, Department of Applied Geophysics, Berlin, Germany
 
 |                       | Info                                                                                                                              |
 | --------------------: | :-------------------------------------------------------------------------------------------------------------------------------- |
