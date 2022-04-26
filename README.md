@@ -132,4 +132,6 @@ Region-specific regularization using an aquatic ERT inversion
 
 Inversion with a-priori constraints: from optimizing options to joint inversion
 
+Complex-valued induced polarization modelling and inversion
 
+Outlook and overview on other projects
