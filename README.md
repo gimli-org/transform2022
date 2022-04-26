@@ -120,4 +120,14 @@ If you get any errors, please let us know on Slack at [#t22-mon-pygimli](https:/
 
 ## Schedule
 
+Introduction into pyGIMLi, looking back and forward
+
+Diving into the details of main classes: DataContainer, Meshes and Matrices
+
+Explaining regularization on behalf of a simple model
+
+Region-specific regularization using an aquatic ERT inversion
+
+Inversion with a-priori constraints: from optimizing options to joint inversion
+
 
