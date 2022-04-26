@@ -53,7 +53,7 @@ This tutorial is particularly suited for new users but adds up to last-years tut
 Make sure you've done these things **before the tutorial on Tuesday**:
 
 1. Sign up for the [Software Underground Slack](https://softwareunderground.org/slack)
-2. Join the channel [#t22-mon-pygimli](https://app.slack.com/client/T094HBB9T/C039C3J7Y1M) channel. This is where **all communication will
+2. Join the channel [#t22-tue-pygimli](https://app.slack.com/client/T094HBB9T/C039C3J7Y1M) channel. This is where **all communication will
    happen** and where we will answer any question about installation and the tutorial
 3. **Install the pyGIMLi conda environment** as described below.
 
@@ -110,7 +110,7 @@ python -c "import pygimli; pygimli.test(show=False, onlydoctests=True)"
 ```
 
 If none of these commands gives an error, then your installation is working fine.
-If you get any errors, please let us know on Slack at [#t22-mon-pygimli](https://app.slack.com/client/T094HBB9T/C039C3J7Y1M).
+If you get any errors, please let us know on Slack at [#t22-tue-pygimli](https://app.slack.com/client/T094HBB9T/C039C3J7Y1M).
 
 ### Step 4: Start JupyterLab
 
