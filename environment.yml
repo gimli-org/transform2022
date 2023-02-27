@@ -7,3 +7,4 @@ dependencies:
     - python>=3.8
     - pygimli=1.2.5
     - jupyterlab
+    - matplotlib<3.5
